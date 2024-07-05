@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skill section</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> I am Dot Net Developer</p>
+            <h1>Hi, I'm <span>Khushbu Shaikh</span><br> From Ahemdnagar</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images\personal.jpg" alt="Image not found">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>My name is Khushbu Shaikh.I'm Dot Net Developer.Now I am working as an intern & Student at Fortune Cloud Pune.Strong problem solving skill & excellent communication abilities.Strong Analytical & performance skills        </p>
+                <ul>
+                    <li>Birth Date:28 Feb 2001</li>
+                    <li>Degree: BE in computer Engineerig</li>
+                    <li>Phone:7620545549</li>
+                </ul>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('strength')">Strengths</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Knowledge In</span><br>C,SQL,HTML5,Web Design,CSS,Javascript.</li>
+                        <li><span>Strong Knowledge In</span><br>Web Designing.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="strength">
+                    <ul>
+                        <li><span>Critical Thinking</span><br>I always think clearly & rationally,understanding the locial connection between the ideas.</li>
+                        <li><span>Problem Solving</span><br>I am capables of coming up with creative solutions to identify problems & solve them in an efficient and effective manner.</li>
+                        <li><span>Continuous Learning</span><br>Continuous learning the new things and improve the thechnical knowledge.</li>
+                  
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>BE from SND college of Engineering,Yeola(Pune University).</li>
+                        <li><span>2020</span><br>Diploma in computer Engineering from Gautam polytechnic Institute,Kolpewadi(Pune University).</li>
+                        <li><span>2018</span><br>HSC from MRMV College,Manmad(Pune University).</li>
+                        <li><span>2016</span><br>SSC St.Xaviour Hight School,Manmad(Pune University).</li>
+            
+            
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------Skills---------------- -->
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="skills-list">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated"style="width:90%;">Web designing</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%;">.NET</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%;">HTML</div>
+            </div>
+            
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated"style="width: 80%;">CSS</div>
+            </div>
+           <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated"style="width:75%">Javascript</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar progress-bar-striped progress-bar-animated" style="width: 70%;">C</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------Languages------------ -->
+<div class="lang">
+    <ul type="square">
+        <h1>Languages</h1></span><br>
+       <li> <h3>English</h3></li>
+       <li><h3>Hindi</h3></li>
+       <li><h3>Marathi</h3></li>
+        
+        
+    </ul>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Personal Projects</h1>
+        <div class="work-list">
+            <div class="work">
+
+                <div class="layer">
+                    <h3 style="color: red;">Milk Management System</h3>
+                    <p>An online milk management system is a digital platform that allows for the tacking & management of milk production & distribution activities.It is often used by dairy farmers,milk processors,and distribution companies to tack the volume and quality of milk to customers.By using this app we can help to improve the efficiency and accurancy of milk production & distribution operations.</p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <div class="layer">
+                    <h3 style="color: red;">Andriod App for creating a map of the college to be used with visitor localization</h3>
+                    <p>As we all face problems while visiting in new campus as we are not familiar
+                        with the infrastructure of the campus. There are no facilities to find places like  administrative building, departments, library, canteen, etc. in the campus and how to  find those places from current location. The new faculty members, staff and visitors  also face same problem inside campus.To avoid all these problems college or  organization should provide a solution for this. So, mobile application is the best  solution for this problem. Therefore, maps are the best way to provide locations.  .</p>
+                    
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa fa-paper-plane"></i> shaikhkhushbu2210@gmail.com</p>
+                <p><i class="fa fa-phone"></i>7620545549</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                </div>
+                <a href="Images\khushbu Resume.jpg" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Khushbu. All Rights Reserved by KHUSHBU<i class="fa fa-heart"></i> </p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyQUDV_1JXGtknCRG4Q2hKXQxoRVuEz2bCYVrvMefPkV_jm3xQLaLB02jzoYirQ6zKXbg/exec '
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
